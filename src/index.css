@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: #fff;
+  scroll-behavior: smooth;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+[tabindex] {
+  outline: none !important;
+}
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0e151c;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5f676e;
+  border-radius: 5px;
+}
+
+:root {
+  --background-primary: #00020c;
+  --background-secondary: #001325;
+  --text-color-primary: #f4f4f4;
+  --text-color-secondary: #403b3b;
+  --text-color-tertiary: #8c8c8c;
+
+  --max-width: 83.5em;
+  --max-width-bleed: 90%;
+  --max-width-narrow: 50em;
+}
